@@ -52,4 +52,13 @@ class BinarySearchTree:
                 _inorder(node.right)
         _inorder(self.root)
         print()
+
+    def preorder(self):
+        def _preorder(node):
+            if node:
+                print(node.data,end=' ')
+                _preorder(node.left)
+                _preorder(node.right)
+        _preorder(self.root)
+        print()
             
