@@ -19,10 +19,10 @@ class HashTable:
         index = self.hashing(key)
         for i in range(self.table):
             new_index = (index + i) % self.size
-            if self.table[index] == None:
+            if self.table[new_index] == None:
                 return False
-            if self.table[index][0] == key:
-                self.table[index] = None
+            if self.table[new_index][0] == key:
+                self.table[new_index] = None
                 return
         return True
     
