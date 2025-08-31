@@ -29,5 +29,6 @@ class HashTable:
 
 h = HashTable(10)
 h.insert('surender',96)
-h.insert('19',19)
+h.insert("ekalavya",99)
+h.insert("pratap",19)
 h.display()
