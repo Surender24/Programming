@@ -44,8 +44,6 @@ class HashTable:
 
 l = HashTable(10)
 l.insert('surender',96)
-l.insert('white',143)
 l.insert('19',19)
-l.insert('su',143)
 l.display()
 print(l.get('surender'))
